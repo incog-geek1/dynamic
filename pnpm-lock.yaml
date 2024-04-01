@@ -22,7 +22,7 @@ dependencies:
     version: 2.2.0-alpha
   '@tomphttp/bare-server-node':
     specifier: ^2.0.1
-    version: 2.0.1
+    version: 2.0.3
   acorn:
     specifier: ^8.10.0
     version: 8.11.3
@@ -402,15 +402,14 @@ packages:
     resolution: {integrity: sha512-xhcflOpwr92tkpp8SoDhB3nK3LHMBIjx+vgow37XobQew2k0/mXSxmaU7BsDFpOIa1CcLCEsR8gWn0v7Cy9+7Q==}
     dev: false
 
-  /@tomphttp/bare-server-node@2.0.1:
-    resolution: {integrity: sha512-L42TC/AldYRFBRZSxhkI0FC5TL8EC/NAsepNC/cWYTTiHQJ7mGg/vdTqNz8ShTYHr6LTHYkuD3/81nhX55SYtA==}
+  /@tomphttp/bare-server-node@2.0.3:
+    resolution: {integrity: sha512-IGzZspDwzto+oPsvlV99OALJKH3X1nRWnpBE8EY6nrqu5I83xw3uSUacEdHNnW4rXG0IQ8vZwMH87VOMoArJ3A==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
       async-exit-hook: 2.0.1
       commander: 10.0.1
       dotenv: 16.3.1
-      headers-polyfill: 3.3.0
       http-errors: 2.0.0
       ipaddr.js: 2.1.0
       source-map-support: 0.5.21
@@ -976,10 +975,6 @@ packages:
       inherits: 2.0.4
       minimatch: 5.1.6
       once: 1.4.0
-    dev: false
-
-  /headers-polyfill@3.3.0:
-    resolution: {integrity: sha512-5e57etwBpNcDc0b6KCVWEh/Ro063OxPvzVimUdM0/tsYM/T7Hfy3kknIGj78SFTOhNd8AZY41U8mOHoO4LzmIQ==}
     dev: false
 
   /http-errors@2.0.0:
